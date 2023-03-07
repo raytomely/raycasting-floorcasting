@@ -275,7 +275,7 @@ while True:
           weapon.weapon_image = weapon.weapons_images[weapons[weapon.weapon_index]]
           weapon.damage = damages[weapon.weapon_index]
           weapon.image = weapon.weapon_image[0]
-          if weapons[weapon.weapon_index] == 'knife': weapon.attack_range == 80
+          if weapons[weapon.weapon_index] == 'knife': weapon.attack_range = 80
           else: weapon.attack_range == 500
 
 
